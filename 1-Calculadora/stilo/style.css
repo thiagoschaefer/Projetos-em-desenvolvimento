@@ -8,6 +8,7 @@
 body {
     background-color: green;
     max-width: 300px;
+    max-height: 300px;
     margin: auto;
 }
 
@@ -36,11 +37,11 @@ section > input#data {
 }
 
 section.number {
-    position: absolute;
-    height: 220px;
-    max-width: 20%;
-    top: 41.5%;
-    font-size: 5px;
+    position: relative;
+    height: 50%;
+    max-width: 80%;
+    top: 16%;
+    font-size: 3pt;
     margin-left: 5px;
 }
 
