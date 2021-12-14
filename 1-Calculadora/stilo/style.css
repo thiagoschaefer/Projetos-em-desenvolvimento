@@ -7,17 +7,18 @@
 
 body {
     background-color: green;
-    max-width: 600vw;
+    max-width: 300px;
     margin: auto;
 }
 
 main { 
     position: inherit;
     background-color: white;
-    max-width: 53vh;
+    max-width: 300%;
     height: 67.5vh;
     margin: auto;
     margin-top: 5vw;
+    padding: 5px;
 }
 
 section > input#tela {
