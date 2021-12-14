@@ -20,6 +20,14 @@ main {
     margin-top: 5vw;
 }
 
+section > input#tela {
+    background-color: rgba(214, 211, 211, 0.652);
+    margin: 6px;
+    width: 95%;
+    height: 100px;
+    font-size: 5em;
+}
+
 section > input#data {
     position: relative;
     margin: 3px;
