@@ -7,22 +7,38 @@
 
 body {
     background-color: green;
-    max-width: 300px;
-    max-height: 300px;
-    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    
 }
 
 main { 
-    position: inherit;
+    position: relative;
     background-color: white;
-    max-width: 300%;
+    width: 50vw;
     height: 67.5vh;
     margin: auto;
-    margin-top: 5vw;
-    padding: 5px;
+    padding: 0px;
 }
 
-section > input#tela {
+section.teclado{
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.22);
+    width: 50vw;
+    height: 50vh;
+    top: 17.5vh;
+}
+
+section.number {
+    background-color: rgba(255, 255, 0, 0.611);
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    top: 16%;
+    font-size: 3pt;
+    margin-left: 5px;
+}
+/*section > input#tela {
     background-color: rgba(214, 211, 211, 0.652);
     margin: 6px;
     width: 95%;
@@ -36,14 +52,6 @@ section > input#data {
     box-shadow: 1px 1px 3px black;
 }
 
-section.number {
-    position: relative;
-    height: 50%;
-    max-width: 80%;
-    top: 16%;
-    font-size: 3pt;
-    margin-left: 5px;
-}
 
 section #num {
     margin-left: 2px;
@@ -54,7 +62,7 @@ section #num {
 }
 section.operadores {
     position: absolute;
-    display: inline-block;
+    display: block;
     max-width: 21%;
     top: 29.2%;
     left: 58%;
@@ -96,5 +104,5 @@ section .reset {
     height: 45px;
     font-size: 35px;
     left: 50%;
-}
+}*/
 
