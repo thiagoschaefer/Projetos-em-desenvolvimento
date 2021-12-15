@@ -9,7 +9,6 @@ body {
     background-color: green;
     width: 100vw;
     height: 100vh;
-    
 }
 
 main { 
@@ -18,6 +17,7 @@ main {
     width: 50vw;
     height: 67.5vh;
     margin: auto;
+    top: 15vh;
     padding: 0px;
 }
 
@@ -32,12 +32,33 @@ section.teclado{
 section.number {
     background-color: rgba(255, 255, 0, 0.611);
     position: absolute;
-    height: 50vh;
     width: 25vw;
-    top: 16%;
+    height: 50vh;
     font-size: 3pt;
-    margin-left: 5px;
 }
+
+section.operadores {
+    position: absolute;
+    display: block;
+    max-width: 21%;
+    top: 29.2%;
+    left: 58%;
+    font-size: 10px;
+}
+
+section.clear {
+    position: absolute;
+    width: 35%;
+    height: 8%;
+    left: 25vw;
+}
+
+
+
+
+
+
+
 /*section > input#tela {
     background-color: rgba(214, 211, 211, 0.652);
     margin: 6px;
@@ -60,14 +81,6 @@ section #num {
     height: 25%;
     font-size: 35px;
 }
-section.operadores {
-    position: absolute;
-    display: block;
-    max-width: 21%;
-    top: 29.2%;
-    left: 58%;
-    font-size: 10px;
-}
 
 section .operador {
     position: relative;
@@ -82,13 +95,6 @@ section > #resetall, .reset, .operador {
     margin: 1px;
 }
 
-section.clear {
-    position: absolute;
-    width: 35%;
-    height: 8%;
-    left: 22%;
-    top: 29.5%;
-}
 
 section #resetall {
     position: absolute;
