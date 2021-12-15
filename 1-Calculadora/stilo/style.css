@@ -19,6 +19,7 @@ main {
     margin: auto;
     top: 15vh;
     padding: 0px;
+    border-radius: 20px;
 }
 
 section.tela {
