@@ -66,23 +66,22 @@ section.clear {
     position: absolute;
     width: 5vw;
     height: 20vh;
-    left: 25vw;
+    left: 31.5vw;
     top: 1%;
 }
 
 section .reset {
-    position: absolute;
+    position: relative;
     width: 17vw;
-    height: 9vh;
-    font-size: 35px;
+    height: 5vh;
+    font-size: 2vw;
 }
 
 section #resetall {
-    position: absolute;
-    display: inline-block;
-    width: 49%;
-    height: 45px;
-    font-size: 35px;
+    position: relative;
+    width: 17vw;
+    height: 5vh;
+    font-size: 2vw;
 }
 
     
