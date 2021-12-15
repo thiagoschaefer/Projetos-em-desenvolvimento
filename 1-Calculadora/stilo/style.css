@@ -32,33 +32,63 @@ section.teclado{
 section.number {
     background-color: rgba(255, 255, 0, 0.611);
     position: absolute;
-    width: 25vw;
+    width: 30vw;
     height: 50vh;
-    font-size: 3pt;
+}
+
+section #num {
+    position: relative;
+    margin-top: 0.5vh;
+    margin-left: 2px;    
+    left: 3vw;
+    top: 1vh;
+    width: 8vw;
+    min-height: 11.5vh;
+    font-size: 2vw;
 }
 
 section.operadores {
     position: absolute;
-    display: block;
-    max-width: 21%;
-    top: 29.2%;
-    left: 58%;
-    font-size: 10px;
+    width: 5vw;
+    left: 31.5vw;
+    top: 1vh;
+}
+
+section .operador {
+    position: relative;
+    width: 17vw;
+    height: 9vh;
+    font-size: 2vw;
+    margin-top: 3px;
 }
 
 section.clear {
     position: absolute;
-    width: 35%;
-    height: 8%;
+    width: 5vw;
+    height: 20vh;
     left: 25vw;
+    top: 1%;
 }
 
+section .reset {
+    position: absolute;
+    width: 17vw;
+    height: 9vh;
+    font-size: 35px;
+}
 
+section #resetall {
+    position: absolute;
+    display: inline-block;
+    width: 49%;
+    height: 45px;
+    font-size: 35px;
+}
 
-
-
-
-
+    
+    
+    
+    
 /*section > input#tela {
     background-color: rgba(214, 211, 211, 0.652);
     margin: 6px;
@@ -74,20 +104,7 @@ section > input#data {
 }
 
 
-section #num {
-    margin-left: 2px;
-    margin-top: 2px;
-    width: 24%;
-    height: 25%;
-    font-size: 35px;
-}
 
-section .operador {
-    position: relative;
-    margin-left: 2px;
-    width: 100%;
-    height: 11vw;
-}
 
 section > #resetall, .reset, .operador {
     background-color: gainsboro;
@@ -96,19 +113,6 @@ section > #resetall, .reset, .operador {
 }
 
 
-section #resetall {
-    position: absolute;
-    display: inline-block;
-    width: 49%;
-    height: 45px;
-    font-size: 35px;
-}
 
-section .reset {
-    position: absolute;
-    width: 49%;
-    height: 45px;
-    font-size: 35px;
-    left: 50%;
-}*/
 
+*/
