@@ -1,3 +1,50 @@
+
+    window.document.querySelector('body').addEventListener('keydown', function(event) {
+
+    window.alert('O código da tecla pressionada é :' + event.keyCode)
+ 
+ });
+
+function validatecla() {
+    window.document.querySelector('body').addEventListener('keydown')
+    var tecla = event.keycode;
+    console.log(tecla)     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*var a = window.document.querySelector('button#num')
 
 a.addEventListener('click', clicar)
@@ -21,16 +68,11 @@ window.document.querySelector('body').addEventListener('keydown', function(event
     console.info( keyboarEvent.keyCode );
    });*/
 
-   document.querySelector('body').addEventListener('keydown', function(event) {
- 
-    document.querySelector('.retorno').innerText = "O código da tecla pressionada é : <br> <span>" + event.keyCode + "</span>";
-
-});
 
 
-function calculo() {
+/*function calculo() {
     var valor1 = window.document.getElementById('retorno')
     var v1 = Number(valor1.value)
-}
+}*/
  
 
