@@ -13,13 +13,13 @@ body {
 
 main { 
     position: relative;
-    background-color: white;
+    background-color: rgba(10, 9, 9, 0.398);
     width: 50vw;
     height: 67.5vh;
     margin: auto;
     top: 15vh;
     padding: 0px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 section.tela {
@@ -29,12 +29,13 @@ section.tela {
 }
 
 section > input#display {
-    background-color: rgba(214, 211, 211, 0.652);
+    background-color: rgba(214, 211, 211, 0.392);
     width: 29vw;
     height: 16vh;
     font-size: 5em;
     border: 0px;
     box-shadow: inset 0px 0px 5px black;
+    border-radius: 10px;
 }
 
 section.teclado{
@@ -43,6 +44,7 @@ section.teclado{
     height: 50vh;
     top: 17.5vh;
     background-color: gray;
+    border-radius: 0px 0px 10px 10px;
 }
 
 section.number {
@@ -62,6 +64,7 @@ section #num {
     min-height: 11.5vh;
     font-size: 2vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 10px;
 }
 
 section.operadores {
@@ -78,6 +81,7 @@ section .operador {
     font-size: 2vw;
     margin-top: 3px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 10px;
 }
 
 section.clear {
@@ -85,6 +89,7 @@ section.clear {
     width: 20vw;
     height: 17.5vh;
     left: 30vw;
+    top: 0.5vh;
 }
 
 section .reset {
@@ -96,6 +101,7 @@ section .reset {
     margin: 2px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
+    border-radius: 10px;
     
 }
 
@@ -108,4 +114,5 @@ section #resetall {
     margin: 2px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
+    border-radius: 10px;
 }
