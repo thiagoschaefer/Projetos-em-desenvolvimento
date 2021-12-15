@@ -11,6 +11,17 @@ body {
     height: 100vh;
 }
 
+div {
+    position: relative;
+    background: white;
+    width: 200px;
+    height: 100px;
+    left: 30px;
+    top: 20px;
+    border: 2px;
+    text-align: center;
+}
+
 main { 
     position: relative;
     background-color: rgba(10, 9, 9, 0.398);

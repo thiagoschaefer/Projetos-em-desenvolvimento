@@ -14,9 +14,23 @@ function sair() {
     a.style.background = 'white'
 }*/
 
+
+/*
+window.document.querySelector('body').addEventListener('keydown', function(event) {
+    document.querySelector('.return').innerHTML=KeyboardEvent.keyCode;
+    console.info( keyboarEvent.keyCode );
+   });*/
+
+   document.querySelector('body').addEventListener('keydown', function(event) {
+ 
+    document.querySelector('.retorno').innerText = "O código da tecla pressionada é : <br> <span>" + event.keyCode + "</span>";
+
+});
+
+
 function calculo() {
-    var valor1 = window.document.getElementById('display')
+    var valor1 = window.document.getElementById('retorno')
     var v1 = Number(valor1.value)
 }
  
-console.log(calculo)
+
