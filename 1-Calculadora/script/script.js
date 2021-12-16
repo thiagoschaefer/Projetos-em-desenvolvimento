@@ -72,38 +72,80 @@ if (event.keycode = 97) {
 //registrar numeros no display
 
 function registradisplay(x) {
-    switch (x) {
-        case x = 0: 
-        document.getElementById('display').value = '0'
-        break
-        case a = 1:
-        document.getElementById('display').value = '1'
-        break
-        case a = 2:
-        document.getElementById('display').value = '2'
-        break
-        case a = 3:
-        document.getElementById('display').value = '3'
-        break
-        case a = 4: 
-        document.getElementById('display').value = '4'
-        break
-        case a = 5:
-        document.getElementById('display').value = '5'
-        break
-        case a = 6:
-        document.getElementById('display').value = '6'
-        break
-        case a = 7:
-        document.getElementById('display').value = '7'
-        break
-        case a = 8:
-        document.getElementById('display').value = '8'
-        break
-        case a = 9:
-        document.getElementById('display').value = '9'
-        break
-    }
+    var disp = document.getElementById('display').value
+    console.log(x)
+   if (disp.length == 0) {
+        disp = x 
+    } else {
+         disp += x
+    } 
+        switch (x) {
+            case x = 0: 
+            document.getElementById('display').value = x
+            break
+            case x = 1:
+            document.getElementById('display').value = x
+            break
+            case x = 2:
+            document.getElementById('display').value = x
+            break
+            case x = 3:
+            document.getElementById('display').value = x
+            break
+            case x = 4: 
+            document.getElementById('display').value = x
+            break
+            case x = 5:
+            document.getElementById('display').value = x
+            break
+            case x = 6:
+            document.getElementById('display').value = x
+            break
+            case x = 7:
+            document.getElementById('display').value = x
+            break
+            case x = 8:
+            document.getElementById('display').value = x
+            break
+            case x = 9:
+            document.getElementById('display').value = x
+            break
+        }/*
+    } else {
+        switch (x) {
+            case x = 0: 
+            disp = disp += x;
+            break
+            case x = 1:
+                disp = disp += x;
+            break
+            case x = 2:
+                disp = disp + x;
+            break
+            case x = 3:
+                disp = disp + x;
+            break
+            case x = 4: 
+            disp = disp + x;
+            break
+            case x = 5:
+                disp = disp + x;
+            break
+            case x = 6:
+                disp = disp + x;
+            break
+            case x = 7:
+                disp = disp + x;
+            break
+            case x = 8:
+                disp = disp + x;
+            break
+            case x = 9:
+                disp = disp + x;
+            break
+        }*/
+        console.log(disp)
+    //}
 }
 
 
@@ -111,3 +153,11 @@ function registradisplay(x) {
 
 
 
+
+/* 
+for (let i = 0 ; i < 9; i++) {
+    if (i = x) {
+        disp = x
+    }
+} 
+*/
