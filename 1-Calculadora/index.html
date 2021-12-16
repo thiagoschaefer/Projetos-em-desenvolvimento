@@ -16,31 +16,31 @@
         </section>
         
         <section class="clear">
-                        <input type="reset" value="C" id="resetall">
-            <button class="reset">⌫</button>
+                        <input type="reset" value="C" id="resetall" onclick="alert('tecla DEL apertada')">
+            <button class="reset" onclick="alert('tecla Backspace apertada')">⌫</button>
         </section>
         <section class="teclado">
             <section class="number">
-                <button id="num">7</button>
-                <button id="num">8</button>
-                <button id="num">9</button>
-                <button id="num">4</button>
-                <button id="num">5</button>
-                <button id="num">6</button>
-                <button id="num">1</button>
-                <button id="num">2</button>
-                <button id="num">3</button>
-                <button id="num">+/-</button>
-                <button id="num">0</button>
-                <button id="num">,</button>
+                <button id="num" onclick="registradisplay(7)">7</button>
+                <button id="num" onclick="registradisplay(8)">8</button>
+                <button id="num" onclick="registradisplay(9)">9</button>
+                <button id="num" onclick="registradisplay(4)">4</button>
+                <button id="num" onclick="registradisplay(5)">5</button>
+                <button id="num" onclick="registradisplay(6)">6</button>
+                <button id="num" onclick="registradisplay(1)">1</button>
+                <button id="num" onclick="registradisplay(2)">2</button>
+                <button id="num" onclick="registradisplay(3)">3</button>
+                <button id="num" onclick="registradisplay('+')">+/-</button>
+                <button id="num" onclick="registradisplay(0)">0</button>
+                <button id="num" onclick="registradisplay(',')">,</button>
             </section>
                
             <section class="operadores">
-                <button class="operador">÷</button>
-                <button class="operador">x</button>
-                <button class="operador">-</button>
-                <button class="operador">+</button>
-                <button class="operador">=</button>
+                <button class="operador" onclick="alert('tecla ÷ apertada')">÷</button>
+                <button class="operador" onclick="alert('tecla X apertada')">x</button>
+                <button class="operador" onclick="alert('tecla - apertada')">-</button>
+                <button class="operador" onclick="alert('tecla + apertada')">+</button>
+                <button class="operador" onclick="alert('tecla = apertada')">=</button>
             </section>
         </section>
     </main>
