@@ -11,6 +11,16 @@ body {
     height: 100vh;
 }
 
+body .randonbg {
+    position: absolute;
+    width: 50vw;
+    height: 5vh;
+    left: 25vw;
+    top: 10vh;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+}
+
 main { 
     position: relative;
     background-color: rgba(10, 9, 9, 0.398);

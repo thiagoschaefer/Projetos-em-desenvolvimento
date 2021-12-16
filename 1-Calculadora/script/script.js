@@ -1,3 +1,17 @@
+
+//Mudar a cor do Background da calculadora
+var btn = document.querySelector('button');
+
+function random(number) {
+  return Math.floor(Math.random()*(number+1));
+}
+
+btn.onclick = function() {
+  var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+  document.body.style.backgroundColor = rndCol;
+}
+
+
 // Indentifica e exibe o código de uma tecla que foi apertada no teclado
 
     window.document.querySelector('body').addEventListener('keydown', function(event) {
@@ -14,7 +28,9 @@
 var valorA = window.document.activeElement.value
 console.log(valor)
 
-
+if (event.keycode = 97) {
+    window.document.activeElement.innerText = '3' 
+}
 
 
 
