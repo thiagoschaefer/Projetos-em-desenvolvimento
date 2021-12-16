@@ -8,8 +8,11 @@
 function validatecla() {
     window.document.querySelector('body').addEventListener('keydown')
     var tecla = event.keycode;
-    console.log(tecla)     
+    if var tecla == 97
+        else 
 }
+
+/* Criar uma condição que valide as 16 teclas da claculadora que podem ser acionadas pelo teclado condição "while" */
 
 
 
