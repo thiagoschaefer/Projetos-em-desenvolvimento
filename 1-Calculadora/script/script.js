@@ -55,17 +55,18 @@ window.document.querySelector('body').addEventListener('keypress', function(even
     
 });
 }
-
+*/
 //Indentifica qual tecla foi pressionada no teclado!
 function validatecla() {
     document.addEventListener("keypress", function(e) {
     const btn = e.key
-        btn.click()
+        console.log(btn)
+        //btn.click()
 
 
     } )
 }
-*/
+
 
 //registrar numeros do teclado da calculadora no display
 
@@ -106,3 +107,29 @@ function registradisplay(x) {
     console.log(disp)
 }        
 
+/*function operadores(x) {
+    document.addEventListener("keypress", function(e) {
+        const btn = e.key
+        var disp = document.getElementById('display').value
+        switch (btn) {
+            case btn = '/': 
+            document.getElementById('display').value = disp + btn
+            break
+            case btn = '*': 
+            document.getElementById('display').value = disp + btn
+            break
+            case btn = '-': 
+            document.getElementById('display').value = disp + btn
+            break
+            case btn = '+': 
+            document.getElementById('display').value = disp + btn
+            break
+            case btn = 'Enter': 
+            document.getElementById('display').value = disp + btn
+            break
+        }
+        console.log(disp)
+        console.log(btn)
+    })
+}        
+*/

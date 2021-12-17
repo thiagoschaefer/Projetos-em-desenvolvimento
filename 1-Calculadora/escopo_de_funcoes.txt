@@ -1,11 +1,16 @@
 Funções para realizar calculos na calculadora: 
 
+- ao clicar em um número no teclado o mesmo deve ser destacado na calculadora
+
 1° - Ler primeiro valor inserido no display
 2° - Gravar valor do display em uma variável assim que um operador for selecionado
 3° - Gravar operador selecionado
 4° - Ler segundo valor inserido no display e repetir o 2° passo
 5° - Realizar calculo do primeiro valor e do segundo valor
 6° - Retornar resultado no display
+
+
+Não precisa ter ligação entre teclado externo e teclado da calculadora os dois farão a mesma função. 12312345678934623
 
 
 Codigos das teclas do teclado:
