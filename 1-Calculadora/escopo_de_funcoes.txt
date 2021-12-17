@@ -1,35 +1,22 @@
 Funções para realizar calculos na calculadora: 
 
-- ao clicar em um número no teclado o mesmo deve ser destacado na calculadora
+-Ao clicar em um número no teclado o mesmo deve ser destacado na calculadora
 
-1° - Ler primeiro valor inserido no display
-2° - Gravar valor do display em uma variável assim que um operador for selecionado
-3° - Gravar operador selecionado
-4° - Ler segundo valor inserido no display e repetir o 2° passo
-5° - Realizar calculo do primeiro valor e do segundo valor
-6° - Retornar resultado no display
+Funções de estilo:
+1° botão que altera cor do background randomicamente   - OK
+2° teclas que se destacam ao passar o mouse em cima    - 
+3° teclas que mudam de cor quando clicadas com o mouse - 
+4° teclas que mudam de cor quando clicadas no teclado  - 
+
+
+Funções:
+1° - Exibir no display valores inserido pelo teclado da calculadora -------------------------------------------- OK
+2° - Gravar valor do display em uma variável assim que um operador for selecionado------------------------------
+3° - Gravar em uma variável operador selecionado--------------------------------------------------------------------------------
+4° - Ler segundo valor inserido no display e repetir o 2° passo-------------------------------------------------
+5° - Realizar calculo do primeiro valor e do segundo valor e adicionar em uma variável--------------------------
+6° - Retornar resultado no display no fim do calculo------------------------------------------------------------
 
 
 Não precisa ter ligação entre teclado externo e teclado da calculadora os dois farão a mesma função. 12312345678934623
 
-
-Codigos das teclas do teclado:
-0 = 
-1 = 97
-2 = 
-3 = 
-4 = 
-5 = 
-6 = 
-7 =
-8 =
-9 =
-+ = 
-- = 
-= = 
-* = 
-/ = 
-, = 
-C (backspace) = 
-Del = 
-+/- ?

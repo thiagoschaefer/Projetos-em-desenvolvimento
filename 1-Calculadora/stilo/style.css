@@ -48,13 +48,13 @@ main {
     border-radius: 10px;
 }
 
-section.tela {
+div.tela {
     position: absolute;
     width: 29vw;
     margin: 10px;
 }
 
-section > input#display {
+div > input#display {
     background-color: rgba(214, 211, 211, 0.392);
     font-family: 'digital-7';
     width: 29vw;
@@ -65,7 +65,7 @@ section > input#display {
     border-radius: 10px;
 }
 
-section.teclado{
+div.teclado{
     position: absolute;
     width: 50vw;
     height: 50vh;
@@ -74,14 +74,14 @@ section.teclado{
     border-radius: 0px 0px 10px 10px;
 }
 
-section.number {
+div.number {
     position: absolute;
     width: 30vw;
     height: 50vh;
 
 }
 
-section #num {
+div #num {
     position: relative;
     margin-top: 0.5vh;
     margin-left: 2px;    
@@ -98,14 +98,14 @@ button#num.bt-0 {
     width: 16.2vw;
 }
 
-section.operadores {
+div.operadores {
     position: absolute;
     width: 5vw;
     left: 31.5vw;
     top: 1vh;
 }
 
-section .operador {
+div .operador {
     position: relative;
     width: 17vw;
     height: 9.3vh;
@@ -115,7 +115,7 @@ section .operador {
     border-radius: 10px;
 }
 
-section.clear {
+div.clear {
     position: absolute;
     width: 20vw;
     height: 17.5vh;
@@ -123,7 +123,7 @@ section.clear {
     top: 0.5vh;
 }
 
-section .reset {
+div .reset {
     position: relative;
     width: 17vw;
     height: 8vh;
@@ -133,10 +133,10 @@ section .reset {
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
     border-radius: 10px;
-        
+
 }
 
-section #resetall {
+div #resetall {
     position: relative;
     width: 17vw;
     height: 8vh;

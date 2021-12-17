@@ -11,38 +11,37 @@
     <button class="randonbg">Change color</button>
     <main>
         
-        <section class="tela">
+        <div class="tela">
             <input type="text" id="display">
-        </section>
+        </div>
         
-        <section class="clear">
+        <div class="clear">
                         <input type="reset" value="C" id="resetall" onclick="alert('tecla DEL apertada')">
             <button class="reset" onclick="alert('tecla Backspace apertada')">AC</button>
-        </section>
-        <section class="teclado">
-            <section class="number">
-                <button class="bt-7" id="num" onclick="registradisplay(7)">7</button>
-                <button class="bt-8" id="num" onclick="registradisplay(8)">8</button>
-                <button class="bt-9" id="num" onclick="registradisplay(9)">9</button>
-                <button class="bt-4" id="num" onclick="registradisplay(4)">4</button>
-                <button class="bt-5" id="num" onclick="registradisplay(5)">5</button>
-                <button class="bt-6" id="num" onclick="registradisplay(6)">6</button>
-                <button class="bt-1" id="num" onclick="registradisplay(1)">1</button>
-                <button class="bt-2" id="num" onclick="registradisplay(2)">2</button>
-                <button class="bt-3" id="num" onclick="registradisplay(3)">3</button>
-                <!--<button id="num" onclick="registradisplay('+')">+/-</button>-->
-                <button class="bt-0" id="num" onclick="registradisplay(0)">0</button>
-                <button class="bt-," id="num" onclick="registradisplay(',')">,</button>
-            </section>
+        </div>
+        <div class="teclado">
+            <div class="number">
+                <button class="bt-7" id="num" onclick="registradisplay(7), colorbutton()">7</button>
+                <button class="bt-8" id="num" onclick="registradisplay(8), colorbutton()">8</button>
+                <button class="bt-9" id="num" onclick="registradisplay(9), colorbutton()">9</button>
+                <button class="bt-4" id="num" onclick="registradisplay(4), colorbutton()">4</button>
+                <button class="bt-5" id="num" onclick="registradisplay(5), colorbutton()">5</button>
+                <button class="bt-6" id="num" onclick="registradisplay(6), colorbutton()">6</button>
+                <button class="bt-1" id="num" onclick="registradisplay(1), colorbutton()">1</button>
+                <button class="bt-2" id="num" onclick="registradisplay(2), colorbutton()">2</button>
+                <button class="bt-3" id="num" onclick="registradisplay(3), colorbutton()">3</button>
+                <button class="bt-0" id="num" onclick="registradisplay(0), colorbutton()">0</button>
+                <button class="bt-," id="num" onclick="registradisplay(','), colorbutton()">,</button>
+            </div>
                
-            <section class="operadores">
-                <button class="operador" onclick="operadores('/')">÷</button>
-                <button class="operador" onclick="operadores('*')">x</button>
-                <button class="operador" onclick="operadores('-')">-</button>
-                <button class="operador" onclick="operadores('+')">+</button>
-                <button class="operador" onclick="operadores('Enter')">=</button>
-            </section>
-        </section>
+            <div class="operadores">
+                <button class="operador" onclick="operadores('/'), colorbutton()">÷</button>
+                <button class="operador" onclick="operadores('*'), colorbutton()">x</button>
+                <button class="operador" onclick="operadores('-'), colorbutton()">-</button>
+                <button class="operador" onclick="operadores('+'), colorbutton()">+</button>
+                <button class="operador" onclick="operadores('Enter'), colorbutton()">=</button>
+            </div>
+        </div>
     </main>
 </body>
     <script src="script/script.js"></script>

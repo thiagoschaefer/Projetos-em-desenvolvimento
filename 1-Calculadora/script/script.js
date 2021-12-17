@@ -1,10 +1,18 @@
 
+//chama as funções ao carregar o html
+
 window.onload = function() {
-    colorbutton();
+   // colorbutton();
     bgrandon();
     validatecla();
-    
 }
+
+//variáveis 
+let pValor = 0
+let sValor = 0
+let operacao = 0
+let resultado = 0 
+
 
 //Mudar a cor do Background da calculadora
 function bgrandon(){
@@ -18,27 +26,28 @@ function bgrandon(){
         var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
         document.body.style.backgroundColor = rndCol;
     }
-}
+};
 
 //Altera cor de teclas quando, "clica - passa sobre - sai". incluir condição for
 function colorbutton(){
-    var filhos = document.querySelectorAll('#number num')
-    for (var i = 0; i < filhos.length; i++) {
-        filhos[i].addEventListener('click', clicar)
-        filhos[i].addEventListener('mouseenter', entrar)
-        filhos[i].addEventListener('mouseout', sair)
+    var e = document.querySelectorAll('div > button');
         
-            function clicar() {
-                filhos.style.background = 'green'
-            }
-            function entrar() {
-                filhos.style.background = 'rgba(214, 211, 211, 1.992)'
-            }
-            function sair() {
-                filhos.style.background = 'white'
-            }
+        e.addEventListener('click', clicar)
+        e.addEventListener('mouseenter', entrar)
+        e.addEventListener('mouseout', sair)
+        
+        function clicar() {
+            e.style.background = 'green'
         }
-    }
+        function entrar() {
+            e.style.background = 'rgba(214, 211, 211, 1.992)'
+        }
+        function sair() {
+            e.style.background = 'white'
+        }
+    
+                 
+};
 
     
   
@@ -105,7 +114,7 @@ function registradisplay(x) {
         document.getElementById('display').value = disp + x
         break
     }
-    console.log(disp)
+    //console.log(disp)
 }        
 
 function operadores(btn) {
@@ -129,7 +138,7 @@ function operadores(btn) {
             document.getElementById('display').value = disp + btn
             break
         }
-       console.log(btn)
-       console.log(disp)
+       //console.log(btn)
+       //console.log(disp)
     })
 }        
