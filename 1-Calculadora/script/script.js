@@ -3,6 +3,7 @@ window.onload = function() {
     colorbutton();
     bgrandon();
     validatecla();
+    
 }
 
 //Mudar a cor do Background da calculadora
@@ -107,9 +108,9 @@ function registradisplay(x) {
     console.log(disp)
 }        
 
-/*function operadores(x) {
+function operadores(btn) {
     document.addEventListener("keypress", function(e) {
-        const btn = e.key
+        let btn = e.key
         var disp = document.getElementById('display').value
         switch (btn) {
             case btn = '/': 
@@ -128,8 +129,7 @@ function registradisplay(x) {
             document.getElementById('display').value = disp + btn
             break
         }
-        console.log(disp)
-        console.log(btn)
+       console.log(btn)
+       console.log(disp)
     })
 }        
-*/

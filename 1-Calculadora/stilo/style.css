@@ -94,6 +94,10 @@ section #num {
     border-radius: 10px;
 }
 
+button#num.bt-0 {
+    width: 16.2vw;
+}
+
 section.operadores {
     position: absolute;
     width: 5vw;
@@ -124,12 +128,12 @@ section .reset {
     width: 17vw;
     height: 8vh;
     left: 1.4vw;
-    font-size: 3vw;
+    font-size: 4vw;
     margin: 2px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
     border-radius: 10px;
-    
+        
 }
 
 section #resetall {
