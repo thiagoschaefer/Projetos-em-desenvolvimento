@@ -29,8 +29,8 @@ function bgrandon(){
 };
 
 //Altera cor de teclas quando, "clica - passa sobre - sai". incluir condição for
-function colorbutton(){
-    var e = document.querySelectorAll('div > button');
+function colorbutton(x){
+    var e = document.querySelector(x);
         
         e.addEventListener('click', clicar)
         e.addEventListener('mouseenter', entrar)
