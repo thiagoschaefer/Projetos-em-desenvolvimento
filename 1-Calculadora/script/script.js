@@ -2,8 +2,7 @@
 window.onload = function() {
     colorbutton();
     bgrandon();
-    //registradisplay();
-    //validatecla();
+    validatecla();
 }
 
 //Mudar a cor do Background da calculadora
@@ -49,27 +48,26 @@ console.log(a)*/
 
 
 // Indentifica e exibe o código de uma tecla que foi apertada no teclado
-function validatecla() {
-window.document.querySelector('body').addEventListener('keydown', function(event) {
+/*function validatecla() {
+window.document.querySelector('body').addEventListener('keypress', function(event) {
     
     window.alert('O código da tecla pressionada é :' + event.keyCode)
     
 });
 }
 
-// Criar uma condição que valide as 16 teclas da claculadora que podem ser acionadas pelo teclado - condição "while" 
+//Indentifica qual tecla foi pressionada no teclado!
+function validatecla() {
+    document.addEventListener("keypress", function(e) {
+    const btn = e.key
+        btn.click()
 
-// Captura o que for digitado no display da calculadora 
-function guardavalor(){
-let valorA = window.document.activeElement.value
-console.log(valor)
 
-if (event.keycode = 97) {
-    window.document.activeElement.innerText = '3' 
+    } )
 }
-}
+*/
 
-//registrar numeros no display
+//registrar numeros do teclado da calculadora no display
 
 function registradisplay(x) {
     var disp = document.getElementById('display').value
@@ -105,6 +103,6 @@ function registradisplay(x) {
         document.getElementById('display').value = disp + x
         break
     }
-    focus()
     console.log(disp)
 }        
+
