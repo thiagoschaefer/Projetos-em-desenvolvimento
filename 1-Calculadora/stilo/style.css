@@ -24,7 +24,7 @@ body {
     background-color: rgb(0, 128, 0);
     width: 100vw;
     height: 100vh;
-    font-family: 'Dust';
+   
 }
 
 body .randonbg {
@@ -56,13 +56,13 @@ section.tela {
 
 section > input#display {
     background-color: rgba(214, 211, 211, 0.392);
+    font-family: 'digital-7';
     width: 29vw;
     height: 16vh;
     font-size: 5em;
     border: 0px;
     box-shadow: inset 0px 0px 5px black;
     border-radius: 10px;
-    
 }
 
 section.teclado{
@@ -89,7 +89,7 @@ section #num {
     top: 1vh;
     width: 8vw;
     min-height: 11.5vh;
-    font-size: 2vw;
+    font-size: 4vw;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.57);
     border-radius: 10px;
 }
@@ -105,7 +105,7 @@ section .operador {
     position: relative;
     width: 17vw;
     height: 9.3vh;
-    font-size: 2vw;
+    font-size: 4vw;
     margin-top: 3px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.57);
     border-radius: 10px;
@@ -124,7 +124,7 @@ section .reset {
     width: 17vw;
     height: 8vh;
     left: 1.4vw;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: 2px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
@@ -137,9 +137,10 @@ section #resetall {
     width: 17vw;
     height: 8vh;
     left: 1.4vw;
-    font-size: 2vw;
+    font-size: 4vw;
     margin: 2px;
     box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.57);
     border: 0px;
     border-radius: 10px;
+    
 }

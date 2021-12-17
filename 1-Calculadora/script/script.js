@@ -105,4 +105,6 @@ function registradisplay(x) {
         document.getElementById('display').value = disp + x
         break
     }
+    focus()
+    console.log(disp)
 }        
